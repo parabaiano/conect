@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "ReleaseNotes": "mudar a versão quando atualizar",
   "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlUpdate.json",
   "Sms": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlSms.json",
