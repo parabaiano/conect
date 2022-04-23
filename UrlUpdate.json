@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ReleaseNotes": "mudar a versão quando atualizar",
   "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlUpdate.json",
   "Sms": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlSms.json",
@@ -52,7 +52,7 @@
     {
       "Name": "VIVO PROXY 01",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host:ca.cactusdeveloper.host[app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: ca.cactusdeveloper.host[app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
@@ -62,7 +62,7 @@
     {
       "Name": "VIVO TLS 02",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host:ca.cactusdeveloper.host [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: ca.cactusdeveloper.host [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
