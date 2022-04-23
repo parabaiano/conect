@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "ReleaseNotes": "mudar o version com um digito a mais sempra q atualizar algo",
   "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlUpdate.json",
   "Sms": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlSms.json",
@@ -52,7 +52,7 @@
     {
       "Name": "VIVO PROXY 01",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host:ca.cactusdeveloper.host [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost:ca.cactusdeveloper.host [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
