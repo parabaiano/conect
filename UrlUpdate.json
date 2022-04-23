@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.7",
   "ReleaseNotes": "mudar a versão quando atualizar",
   "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlUpdate.json",
   "Sms": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlSms.json",
@@ -26,7 +26,7 @@
   ],
   "Servers": [
     {
-      "Name": "LPNconect | PLUS",
+      "Name": "LPNconect 0 | PLUS",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "cactusdeveloper.host",
