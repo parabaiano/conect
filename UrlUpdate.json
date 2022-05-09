@@ -1,6 +1,6 @@
 {
-    "Version": "2.0.1",
-    "ReleaseNotes": "ultima verção 2.0.1",
+    "Version": "3.0.1",
+    "ReleaseNotes": "ultima verção 3.0.1",
     "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlUpdate.json",
     "Sms": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlSms.json",
     "EmailFeedback": "https://t.me/parabaiano",
@@ -43,7 +43,7 @@
         "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
         "SNI": "",
         "TlsIP": "",
-        "ProxyIP": "104.16.56.6",
+        "ProxyIP": "104.18.7.80",
         "ProxyPort": "80",
         "Info": "Proxy"
       },
@@ -52,7 +52,7 @@
         "FLAG": "vivo",
         "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
         "SNI": "[app_host]",
-        "TlsIP": "104.18.7.80",
+        "TlsIP": "104.18.6.80",
         "ProxyIP": "",
         "ProxyPort": "",
         "Info": "Tlsws"
