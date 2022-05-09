@@ -70,45 +70,25 @@
       {
         "Name": "TIM PROXY 01",
         "FLAG": "tim",
-        "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+        "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
         "SNI": "",
         "TlsIP": "",
-        "ProxyIP": "104.16.56.6",
+        "ProxyIP": "104.16.133.83",
         "ProxyPort": "80",
         "Info": "Proxy"
       },
       {
-        "Name": "TIM TLS 02",
+        "Name": "TIM WS 02",
         "FLAG": "tim",
-        "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]X-Forward-Host: [app_host][crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] CONNECT [host_port][protocol][crlf][crlf]",
-        "SNI": "no.descomplica.com.br",
-        "TlsIP": "mobilidade.cloud.caixa.gov.br",
-        "ProxyIP": "199.60.103.228",
-        "ProxyPort": "",
-        "Info": "Tlsws"
-      },
-      {
-        "Name": "TIM 03",
-        "FLAG": "tim",
-        "Payload": "GET wss://m.timbancavirtual.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-        "SNI": "m.timbancavirtual.com.br",
-        "TlsIP": "m.timbancavirtual.com.br",
+        "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+        "SNI": "[app_host]",
+        "TlsIP": "104.16.133.83",
         "ProxyIP": "",
         "ProxyPort": "",
         "Info": "Tlsws"
       },
       {
-        "Name": "TIM TLS 04",
-        "FLAG": "tim",
-        "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-        "SNI": "cdnjs.cloudflare.com",
-        "TlsIP": "cdnjs.cloudflare.com",
-        "ProxyIP": "",
-        "ProxyPort": "",
-        "Info": "Tlsws"
-      },
-      {
-        "Name": "TIM TLS 05",
+        "Name": "TIM TLS 03",
         "FLAG": "tim",
         "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
         "SNI": "cdnjs.cloudflare.com",
@@ -118,21 +98,11 @@
         "Info": "Tlsws"
       },
       {
-        "Name": "CLARO TLS 01",
+        "Name": "CLARO 01",
         "FLAG": "claro",
-        "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-        "SNI": "mobilidade.cloud.caixa.gov.br",
-        "TlsIP": "mobilidade.cloud.caixa.gov.br",
-        "ProxyIP": "",
-        "ProxyPort": "",
-        "Info": "Tlsws"
-      },
-      {
-        "Name": "CLARO TLS 02",
-        "FLAG": "claro",
-        "Payload": "GET ws://parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-        "SNI": "parceirosclaro.com.br",
-        "TlsIP": "parceirosclaro.com.br",
+        "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+        "SNI": "no.descomplica.com.br",
+        "TlsIP": "199.60.103.228",
         "ProxyIP": "",
         "ProxyPort": "",
         "Info": "Tlsws"
@@ -142,51 +112,21 @@
         "FLAG": "claro",
         "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
         "SNI": "no.descomplica.com.br",
-        "TlsIP": "",
+        "TlsIP": "199.60.103.228",
         "ProxyIP": "",
         "ProxyPort": "",
         "Info": "Ssl"
       },
       {
-        "Name": "CLARO SSL 04",
-        "FLAG": "claro",
-        "Payload": "",
-        "SNI": "m.waze.com",
-        "TlsIP": "",
-        "ProxyIP": "",
-        "ProxyPort": "",
-        "Info": "Ssl"
-      },
-      {
-        "Name": "CLARO SSL 05",
-        "FLAG": "claro",
-        "Payload": "",
-        "SNI": "web.whatsapp.com",
-        "TlsIP": "",
-        "ProxyIP": "",
-        "ProxyPort": "",
-        "Info": "Ssl"
-      },
-      {
-        "Name": "CLARO SSL 06",
-        "FLAG": "claro",
-        "Payload": "",
-        "SNI": "m.twitter.com",
-        "TlsIP": "",
-        "ProxyIP": "",
-        "ProxyPort": "",
-        "Info": "Ssl"
-      },
-      {
-        "Name": "OI PROXY 01",
+        "Name": "OI TLS 02",
         "FLAG": "oi",
-        "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
-        "SNI": "",
-        "TlsIP": "",
-        "ProxyIP": "104.16.56.6",
-        "ProxyPort": "80",
-        "Info": "Proxy"
-      },
+        "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+        "SNI": "www.hbogo.com.br",
+        "TlsIP": "www.hbogo.com.br",
+        "ProxyIP": "",
+        "ProxyPort": "",
+        "Info": "Tlsws"
+      }
       {
         "Name": "OI TLS 02",
         "FLAG": "oi",
