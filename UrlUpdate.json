@@ -1,5 +1,5 @@
 {
-    "Version": "4.0.1",
+    "Version": "5.0.1",
     "ReleaseNotes": "ultima verção 4.0.1",
     "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlUpdate.json",
     "Sms": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlSms.json",
@@ -126,7 +126,7 @@
         "ProxyIP": "",
         "ProxyPort": "",
         "Info": "Tlsws"
-      }
+      },
       {
         "Name": "OI TLS 02",
         "FLAG": "oi",
