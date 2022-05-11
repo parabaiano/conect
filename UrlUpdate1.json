@@ -2,10 +2,10 @@
 {
     "Version": "5.0.1",
     "ReleaseNotes": "ultima verção 5.0.1",
-    "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlUpdate.json",
+    "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlUpdate1.json",
     "Sms": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlSms.json",
-    "EmailFeedback": "https://t.me/parabaiano",
-    "UrlContato": "https://wa.me/message/M3UNG4X3QT5FN1",
+    "EmailFeedback": "https://wa.me/message/XAODUXWC6KSUO1",
+    "UrlContato": "https://wa.me/message/XAODUXWC6KSUO1",
     "UrlTermos": "https://raw.githubusercontent.com/parabaiano/conect/main/termos.html",
     "CheckUser": "true",
     "Udp": [
@@ -15,7 +15,7 @@
     ],
     "Servers": [
       {
-        "Name": "Legion 4G+ | PLUS",
+        "Name": "LPNconect 4G+ | PLUS",
         "TYPE": "premium",
         "FLAG": "br.png",
         "ServerIP": "br.cactusdeveloper.host",
@@ -26,7 +26,7 @@
         "PASS": ""
       },
       {
-        "Name": "Legion 4G+ 2 | PLUS",
+        "Name": "LPNconect 4G+ 2 | PLUS",
         "TYPE": "premium",
         "FLAG": "br.png",
         "ServerIP": "br.cactusdeveloper.host",
