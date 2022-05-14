@@ -1,6 +1,6 @@
 {
-    "Version": "5.0.1",
-    "ReleaseNotes": "ultima verção 5.0.1",
+    "Version": "6.0.1",
+    "ReleaseNotes": "ultima verção 6.0.1",
     "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlUpdate.json",
     "Sms": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlSms.json",
     "EmailFeedback": "https://t.me/parabaiano",
@@ -108,10 +108,10 @@
         "Info": "Tlsws"
       },
       {
-        "Name": "CLARO SSL 03",
+        "Name": "CLARO SSL 02",
         "FLAG": "claro",
-        "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-        "SNI": "no.descomplica.com.br",
+        "Payload": "GET ws://http://content.akross.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+        "SNI": "http://content.akross.com.br",
         "TlsIP": "199.60.103.228",
         "ProxyIP": "",
         "ProxyPort": "",
