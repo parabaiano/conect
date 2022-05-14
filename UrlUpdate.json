@@ -1,6 +1,6 @@
 {
-    "Version": "9.0.1",
-    "ReleaseNotes": "ultima verção 9.0.1",
+    "Version": "10.0.1",
+    "ReleaseNotes": "ultima verção 10.0.1",
     "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlUpdate.json",
     "Sms": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlSms.json",
     "EmailFeedback": "https://t.me/parabaiano",
@@ -112,8 +112,8 @@
         "FLAG": "claro",
         "Payload": "GET ws://atendimento.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
         "SNI": "atendimento.descomplica.com.br",
-        "TlsIP": "no.descomplica.com.br",
-        "ProxyIP": "",
+        "TlsIP": "atendimento.descomplica.com.br",
+        "ProxyIP": "no.descomplica.com.br",
         "ProxyPort": "443",
         "Info": "Ssl"
       },
