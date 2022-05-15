@@ -1,6 +1,6 @@
 {
-    "Version": "10.0.1",
-    "ReleaseNotes": "ultima verção 10.0.1",
+    "Version": "11.0.1",
+    "ReleaseNotes": "ultima verção 11.0.1",
     "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlUpdate.json",
     "Sms": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlSms.json",
     "EmailFeedback": "https://t.me/parabaiano",
@@ -110,10 +110,10 @@
       {
         "Name": "CLARO SSL 02",
         "FLAG": "claro",
-        "Payload": "GET ws://atendimento.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+        "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1\nHost: rocketnet.cf \nUpgrade: ws\n\n",
         "SNI": "atendimento.descomplica.com.br",
-        "TlsIP": "atendimento.descomplica.com.br",
-        "ProxyIP": "no.descomplica.com.br",
+        "TlsIP": "no.descomplica.com.br",
+        "ProxyIP": "",
         "ProxyPort": "443",
         "Info": "Ssl"
       },
