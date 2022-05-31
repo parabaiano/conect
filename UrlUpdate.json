@@ -1,6 +1,6 @@
 {
-    "Version": "16.0.1",
-    "ReleaseNotes": "ultima verção 16.0.1",
+    "Version": "17.0.1",
+    "ReleaseNotes": "ultima verção 17.0.1",
     "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlUpdate.json",
     "Sms": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlSms.json",
     "EmailFeedback": "https://t.me/parabaiano",
@@ -13,6 +13,19 @@
       }
     ],
     "Servers": [
+      {
+        "Name": "Legion Conect 4G+ | PLUS",
+        "TYPE": "premium",
+        "FLAG": "br.png",
+        "ServerIP": "br.cactusdeveloper.host",
+        "CheckUser": "http://209.14.136.202:5454/checkUser",
+        "ServerPort": "22",
+        "SSLPort": "443",
+        "USER": "",
+        "PASS": ""
+      }
+    ],
+    "Networks": [
       {
         "Name": "VIVO PROXY 01",
         "FLAG": "vivo",
