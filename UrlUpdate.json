@@ -1,6 +1,6 @@
 {
-    "Version": "19.0.1",
-    "ReleaseNotes": "ultima verção 19.0.1",
+    "Version": "20.0.1",
+    "ReleaseNotes": "ultima verção 20.0.1",
     "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlUpdate.json",
     "Sms": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlSms.json",
     "EmailFeedback": "https://t.me/parabaiano",
@@ -109,9 +109,9 @@
       {
         "Name": "CLARO 01",
         "FLAG": "claro",
-        "Payload": "GET wss://atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-        "SNI": "atendimento.descomplica.com.br",
-        "TlsIP": "no.descomplica.com.br",
+        "Payload": "GET wss://api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+        "SNI": "api.new.livestream.com",
+        "TlsIP": "api.new.livestream.com",
         "ProxyIP": "",
         "ProxyPort": "",
         "Info": "Tlsws"
@@ -119,11 +119,11 @@
       {
         "Name": "CLARO 02",
         "FLAG": "claro",
-        "Payload": "GET wss://atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-        "SNI": "atendimento.descomplica.com.br",
-        "TlsIP": "no.descomplica.com.br",
-        "ProxyIP": "199.60.103.228",
-        "ProxyPort": "443",
+        "Payload": "GET wss://Atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+        "SNI": "Atendimento.descomplica.com.br",
+        "TlsIP": "No.descomplica.com.br",
+        "ProxyIP": "",
+        "ProxyPort": "",
         "Info": "Tlsws"
       },
       {
@@ -133,7 +133,7 @@
         "SNI": "atendimento.descomplica.com.br",
         "TlsIP": "no.descomplica.com.br",
         "ProxyIP": "",
-        "ProxyPort": "443",
+        "ProxyPort": "",
         "Info": "Ssl"
       },
       {
