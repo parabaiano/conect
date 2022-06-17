@@ -1,10 +1,10 @@
 {
-    "Version": "1.0.1",
+    "Version": "25.0.1",
     "ReleaseNotes": "Novos Provedores adicionados",
     "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlUpdate.json",
     "Sms": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlSms.json",
     "EmailFeedback": "https://t.me/parabaiano",
-    "UrlContato": "https://wa.me/message/M3UNG4X3QT5FN1",
+    "UrlContato": "1234",
     "UrlTermos": "https://raw.githubusercontent.com/parabaiano/conect/main/termos.html",
     "CheckUser": "true",
     "Udp": [
