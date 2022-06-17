@@ -1,5 +1,5 @@
 {
-    "Version": "24.0.1",
+    "Version": "1.0.1",
     "ReleaseNotes": "Novos Provedores adicionados",
     "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlUpdate.json",
     "Sms": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlSms.json",
@@ -14,7 +14,7 @@
     ],
     "Servers": [
       {
-        "Name": "Legion Conect 4G+",
+        "Name": "Servidor Br 4G+",
         "TYPE": "premium",
         "FLAG": "br.png",
         "ServerIP": "br.cactusdeveloper.host",
